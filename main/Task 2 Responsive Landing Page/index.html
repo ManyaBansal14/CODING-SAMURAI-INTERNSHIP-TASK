@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura - The Future of Digital Wellness</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Custom styles can go here if needed, though Tailwind covers most. */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .text-gradient {
+            background-image: linear-gradient(to right, #6EE7B7, #3B82F6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        /* Style for smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Hero Section -->
+    <header id="home" class="bg-white py-16 md:py-24">
+        <div class="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
+            <div class="md:w-1/2 text-center md:text-left mb-8 md:mb-0">
+                <h1 class="text-4xl md:text-6xl font-bold leading-tight">
+                    Find Your <span class="text-gradient">Inner Balance</span> with Aura
+                </h1>
+                <p class="mt-4 text-lg md:text-xl text-gray-600">
+                    Aura is your personal companion for digital wellness. Reconnect with yourself and find peace in a noisy world.
+                </p>
+                <a href="#features" class="mt-8 inline-block px-8 py-4 bg-blue-600 text-white font-semibold rounded-full shadow-lg hover:bg-blue-700 transition-colors duration-300 transform hover:-translate-y-1">
+                    Discover Aura
+                </a>
+            </div>
+            <div class="md:w-1/2">
+                <!-- Placeholder for a product image or illustration -->
+                <img src="https://placehold.co/600x400/1D4ED8/F9FAFB?text=Aura+App" alt="Aura App Interface" class="w-full rounded-2xl shadow-xl">
+            </div>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section id="features" class="py-16 md:py-24 bg-gray-100">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold">Key Features</h2>
+            <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
+                Designed to help you live a more mindful and balanced life.
+            </p>
+            <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Feature Card 1 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg transform transition-transform duration-300 hover:scale-105">
+                    <div class="text-4xl text-blue-600 mb-4">&#9733;</div>
+                    <h3 class="text-xl font-bold">Personalized Insights</h3>
+                    <p class="mt-2 text-gray-600">
+                        Receive daily recommendations tailored to your goals and habits.
+                    </p>
+                </div>
+                <!-- Feature Card 2 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg transform transition-transform duration-300 hover:scale-105">
+                    <div class="text-4xl text-blue-600 mb-4">&#9829;</div>
+                    <h3 class="text-xl font-bold">Mindful Moments</h3>
+                    <p class="mt-2 text-gray-600">
+                        Short, guided meditations and breathing exercises for quick relief.
+                    </p>
+                </div>
+                <!-- Feature Card 3 -->
+                <div class="bg-white p-8 rounded-xl shadow-lg transform transition-transform duration-300 hover:scale-105">
+                    <div class="text-4xl text-blue-600 mb-4">&#9899;</div>
+                    <h3 class="text-xl font-bold">Digital Detox</h3>
+                    <p class="mt-2 text-gray-600">
+                        Schedule "off-time" and minimize distractions with our focus mode.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-16 md:py-24 bg-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold">What Our Users Say</h2>
+            <div class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-gray-100 p-8 rounded-xl shadow-lg text-left">
+                    <p class="italic text-gray-600">"Aura has completely changed how I approach my work-life balance. I feel less stressed and more present."</p>
+                    <div class="mt-4 font-semibold text-blue-600">- Alex R.</div>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="bg-gray-100 p-8 rounded-xl shadow-lg text-left">
+                    <p class="italic text-gray-600">"The guided meditations are fantastic. It's so easy to fit them into my busy schedule."</p>
+                    <div class="mt-4 font-semibold text-blue-600">- Sarah L.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-4 text-center">
+            <div class="flex flex-col md:flex-row justify-center md:space-x-8">
+                <a href="#" class="hover:underline my-2 md:my-0">Privacy Policy</a>
+                <a href="#" class="hover:underline my-2 md:my-0">Terms of Service</a>
+                <a href="#" class="hover:underline my-2 md:my-0">Contact Us</a>
+            </div>
+            <p class="mt-8 text-sm text-gray-400">&copy; 2024 Aura. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Simple JavaScript for form submission (without a backend) and smooth scrolling -->
+    <script>
+        // Smooth scroll for internal links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
